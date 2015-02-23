@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Generals -->
+    <string name="app_name">MainActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Main Activity Strings-->
+    <string name="main_activity_name">MainActivity</string>
+    <string name="main_activity_title">Contapassi v1.0</string>
+    <string name="main_activity_new_training_button">Nuovo</string>
+    <string name="main_activity_view_trainings_button">Allenamenti</string>
+    <string name="main_activity_profile_management_button">Mio Profilo</string>
+
+
+
+    <!-- New Training Activity Strings -->
+    <string name="new_training_activity_name">NewTrainingActivity</string>
+    <string name="new_training_activity_btn_start_training">Inizia Allenamento</string>
+
+    <!-- View Trainings Activity Strings -->
+    <string name="view_trainings_activity_name">ViewTrainingsActivity</string>
+    <string name="view_trainings_activity_eye_symbol_image_description">Eye Symbol Image</string>
+    <string name="view_trainings_activity_share_symbol_image_description">Share Symbol Image</string>
+    <string name="view_trainings_activity_trash_can_symbol_image_description">Trash Can Symbol Image</string>
+    <string name="view_trainings_activity_title">Lista Allenamenti</string>
+
+
+
+
+    <!-- Share Activity Strings -->
+    <string name="share_activity_name">ShareActivity</string>
+
+    <!-- Training Activity Strings -->
+    <string name="training_activity_name">TrainingActivity</string>
+
+    <string name="training_activity_right_shoe_description">Scarpa Destra</string>
+    <string name="training_activity_left_shoe_description">Scarpa Sinistra</string>
+    <string name="training_activity_circle_image_description">Cerchio</string>
+    <string name="training_activity_play_button_description">Play</string>
+    <string name="training_activity_pause_button_description">Pause</string>
+    <string name="training_activity_stop_button_description">Stop</string>
+    <string name="training_activity_positioning_image_description">PositioningImage</string>
+    <string name="training_activity_clock_image_description">ClockImage</string>
+    <string name="training_activity_clock_init">0:00:000</string>
+    <string name="training_activity_counter_init">00</string>
+
+    <!-- Training End Activity Strings -->
+    <string name="training_end_activity_name">TrainingEndActivity</string>
+    <string name="training_end_activity_title">Allenamento Completato</string>
+    <string name="training_end_activity_share_button">Condividi</string>
+    <string name="training_end_activity_graphic_button">Vedi Grafico</string>
+    <string name="training_end_activity_exit_no_save_button">Esci Senza Salvare</string>
+    <string name="training_end_activity_exit_save_button">Esci e Salva</string>
+
+
+
+
+
+    <!-- Profile Management Activity Strings -->
+    <string name="profile_management_activity_name">ProfileManagement</string>
+    <string name="profile_management_activity_name_text_view">Nome</string>
+    <string name="profile_management_activity_surname_text_view">Cognome</string>
+    <string name="profile_management_activity_height_text_view">Altezza</string>
+    <string name="profile_management_activity_weight_text_view">Peso</string>
+    <string name="profile_management_activity_step_length_text_view">Lungh. Passo</string>
+    <string name="profile_management_activity_gender_text_view">Sesso</string>
+    <string name="profile_management_activity_x_text_view">X</string>
+    <string name="profile_management_activity_statistics_text">Statistiche</string>
+    <string name="profile_management_activity_save_text">Salva</string>
+    <string name="profile_management_activity_height_image_description">HeightImage</string>
+    <string name="profile_management_activity_weight_image_description">WeightImage</string>
+    <string name="profile_management_activity_step_image_description">StepImage</string>
+    <string name="profile_management_activity_gender_image_description">GenderImage</string>
+
+
+
+    <!-- Training Statistics Activity Strings -->
+    <string name="training_statistics_activity_name">TrainingStatistics</string>
+    <string name="training_statistics_activity_title">Statistiche Allenamento</string>
+
+
+
+
+    <!-- New Training Popup Strings -->
+    <string name="new_training_popup_title">Settings Nuovo Allenamento</string>
+    <string name="new_training_popup_training_name_text_view">Nome Allenamento</string>
+    <string name="new_training_popup_steps_per_minute_text_view">Velocità Media: Passi/Min</string>
+    <string name="new_training_popup_cancel_button">Cancella</string>
+    <string name="new_training_popup_start_training_button">Inizia</string>
+    <string name="new_training_popup_training_name_error">Errore! Inserire un Nome Allenamento! </string>
+    <string name="new_training_popup_mean_speed_error">Errore! Inserire la Velocità Media: Passi/Min! </string>
+    <string name="new_training_popup_json_creation_error">Errore interno. Si prega di riprovare. </string>
+
+    <!-- Error Activity Strings -->
+    <string name="error_activity_name">ErrorActivity</string>
+    <string name="error_activity_title">Profilo utente non trovato: inserire i propri dati premendo il pulsante "Gestione Profilo".</string>
+    <string name="error_activity_profile_management_button">Gestione Profilo</string>
+    <string name="error_activity_cancel_button">Indietro</string>
+
+
+    <!-- Send Email Activity NStrings -->
+    <string name="send_email_activity_name">SendEmailActivity</string>
+
+    <string name="send_email_activity_edit_text_to">Indirizzo Email!</string>
+    <string name="send_email_activity_edit_text_subject">Oggetto</string>
+    <string name="send_email_activity_edit_text_message">Inserisci il messaggio qua!</string>
+    <string name="send_email_activity_send_button">Soggetto</string>
+    <string name="send_email_activity_attachment_button">Allegati</string>
+
+
+
+    <!-- Workout Elimination Confirm Popup Strings -->
+    <string name="workout_elimination_confirm_popup_message">Vuoi davvero eliminare questo allenamento?</string>
+    <string name="workout_elimination_confirm_popup_confirm">Conferma</string>
+    <string name="workout_elimination_confirm_popup_cancel">Annulla</string>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:id="@+id/popup_new_training"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_training_popup_selector" >
+    
+    
+    <TextView
+          android:id="@+id/newTrainingPopupTitleTextView"
+          android:layout_width="250dip"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:textColor="@color/black"
+          android:text="@string/new_training_popup_title" />
+    
+    
+    <TextView
+          android:id="@+id/newTrainingPopupTrainingNameTextView"
+          android:layout_width="100dip"
+          android:layout_height="40dip"
+          android:textSize="15sp"
+          android:textColor="@color/black"
+          android:layout_below="@id/newTrainingPopupTitleTextView"
+          android:text="@string/new_training_popup_training_name_text_view" />
+    <EditText
+          android:id="@+id/newTrainingPopupEditText"
+          android:layout_width="150dip"
+          android:layout_height="40dip"
+          android:layout_toRightOf="@id/newTrainingPopupTrainingNameTextView"
+          android:layout_toEndOf="@id/newTrainingPopupTrainingNameTextView"
+          android:layout_below="@id/newTrainingPopupTitleTextView"
+          android:inputType="text">
+    </EditText>
+    
+    
+    <TextView
+          android:id="@+id/newTrainingPopupStepsPerMinuteTextView"
+          android:layout_width="100dip"
+          android:layout_height="40dip"
+          android:textSize="15sp"
+          android:textColor="@color/black"
+          android:layout_below="@id/newTrainingPopupTrainingNameTextView"
+          android:text="@string/new_training_popup_steps_per_minute_text_view" />
+    <EditText
+          android:id="@+id/newTrainingPopupStepsPerMinuteEditText"
+          android:layout_width="150dip"
+          android:layout_height="40dip"
+          android:layout_below="@id/newTrainingPopupEditText"
+          android:inputType="number"
+          android:layout_toRightOf="@id/newTrainingPopupStepsPerMinuteTextView"
+          android:layout_toEndOf="@id/newTrainingPopupStepsPerMinuteTextView">
+    </EditText>
+    
+    
+    <Button
+        android:id="@+id/btnCancelNewTrainingPopup"
+        android:layout_width="130dip"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/newTrainingPopupStepsPerMinuteTextView"
+        android:text="@string/new_training_popup_cancel_button"
+        android:background="@drawable/new_training_popup_button_selector" />
+    <Button
+        android:id="@+id/btnStartTrainingNewTrainingPopup"
+        android:layout_width="130dip"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/btnCancelNewTrainingPopup"
+        android:layout_toEndOf="@id/btnCancelNewTrainingPopup"
+        android:layout_below="@id/newTrainingPopupStepsPerMinuteEditText"
+        android:text="@string/new_training_popup_start_training_button"
+        android:background="@drawable/new_training_popup_button_selector"  />
+    
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+     >
+ 
+    
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/yellow">
+    </TextView>
+ 
+    
+    
+    
+    
+    
+    <ImageView
+	    android:id="@+id/shareSymbolImage"
+	    android:layout_width="40dp"
+	    android:layout_height="40dp"
+	    android:src="@drawable/share_symbol"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentEnd="true"
+	    android:contentDescription="@string/view_trainings_activity_share_symbol_image_description" />
+    
+    <ImageView
+	    android:id="@+id/trashCanSymbolImage"
+	    android:layout_width="40dp"
+	    android:layout_height="40dp"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginRight="15dp"
+	    android:src="@drawable/trash_can_symbol"
+	    android:layout_toLeftOf="@id/shareSymbolImage"
+	    android:layout_toStartOf="@id/shareSymbolImage"
+	    android:contentDescription="@string/view_trainings_activity_trash_can_symbol_image_description" />
+    
+    
+    <ImageView
+	    android:id="@+id/eyeSymbolImage"
+	    android:layout_width="40dp"
+	    android:layout_height="40dp"
+	    android:src="@drawable/eye_symbol"
+	    android:layout_toLeftOf="@id/trashCanSymbolImage"
+	    android:layout_toStartOf="@id/trashCanSymbolImage"
+	    android:contentDescription="@string/view_trainings_activity_eye_symbol_image_description" />
+    
+    
+    
+    
+
+</RelativeLayout>

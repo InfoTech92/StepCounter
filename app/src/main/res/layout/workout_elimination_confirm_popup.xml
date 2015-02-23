@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:id="@+id/popup_workout_elimination_confirm"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_training_popup_selector" >
+    
+    
+    <TextView
+          android:id="@+id/workoutEliminationConfirmPopupMessageTextView"
+          android:layout_width="250dip"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:textColor="@color/black"
+          android:text="@string/workout_elimination_confirm_popup_message" />
+    
+    
+    
+    <Button
+        android:id="@+id/workoutEliminationConfirmPopupCancelButton"
+        android:layout_width="130dip"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/workoutEliminationConfirmPopupMessageTextView"
+        android:text="@string/workout_elimination_confirm_popup_cancel"
+        android:background="@drawable/new_training_popup_button_selector" />
+    <Button
+        android:id="@+id/workoutEliminationConfirmPopupConfirmButton"
+        android:layout_width="130dip"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/workoutEliminationConfirmPopupCancelButton"
+        android:layout_toEndOf="@id/workoutEliminationConfirmPopupCancelButton"
+        android:layout_below="@id/workoutEliminationConfirmPopupMessageTextView"
+        android:text="@string/workout_elimination_confirm_popup_confirm"
+        android:background="@drawable/new_training_popup_button_selector"  />
+    
+
+</RelativeLayout>

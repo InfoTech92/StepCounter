@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/circleShape">
+        <shape
+            android:innerRadiusRatio="3"
+            android:shape="ring"
+            android:thicknessRatio="7.0"
+            >
+            <gradient
+                android:startColor="#fb0000"
+                android:endColor="#00FF00"
+                android:centerColor="#fbf400"
+                android:type="linear"
+                android:angle="270"
+                />
+
+        </shape>
+    </item>
+
+</selector>

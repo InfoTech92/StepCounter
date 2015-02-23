@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/main_header_selector"
+    tools:context=".MainActivity" >
+
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:padding="5dp"
+	    android:background="@drawable/main_header_selector" >
+	
+	
+		<EditText
+		    android:id="@+id/editTextTo"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentStart="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_margin="5dp"
+		    android:hint="@string/send_email_activity_edit_text_to"
+		    android:inputType="textEmailAddress"
+		    android:singleLine="true" />
+		
+		<EditText
+		    android:id="@+id/editTextSubject"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/editTextTo"
+		    android:layout_margin="5dp"
+		    android:hint="@string/send_email_activity_edit_text_subject"
+		    android:singleLine="true" />
+		
+		
+		<EditText
+		    android:id="@+id/editTextMessage"
+		    android:layout_width="match_parent"
+		    android:layout_height="150dp"
+		    android:layout_below="@id/editTextSubject"
+		    android:layout_margin="5dp"
+		    android:gravity="top|start"
+		    android:hint="@string/send_email_activity_edit_text_message"
+		    android:inputType="textMultiLine" />
+		
+		
+		<Button
+		    android:id="@+id/buttonSend"
+		    android:layout_width="80dp"
+		    android:layout_height="50dp"
+		    android:layout_below="@id/editTextMessage"
+		    android:layout_margin="5dp"
+		    android:text="@string/send_email_activity_send_button"
+		    android:textColor="@color/yellow"
+        	android:background="@drawable/button_selector" />
+		
+		
+		<Button
+		    android:id="@+id/buttonAttachment"
+		    android:layout_width="wrap_content"
+		    android:layout_height="50dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentEnd="true"
+		    android:layout_alignParentTop="true"
+		    android:text="@string/send_email_activity_attachment_button"
+		    android:textColor="@color/yellow"
+        	android:background="@drawable/button_selector" />
+	
+	</RelativeLayout>
+
+
+</ScrollView>
