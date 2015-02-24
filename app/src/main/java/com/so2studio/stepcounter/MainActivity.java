@@ -21,6 +21,8 @@ import com.example.mainactivity.R;
  *
  *
  */
+
+//TEST
 public class MainActivity extends ActionBarActivity implements OnClickListener{
 
     /**
