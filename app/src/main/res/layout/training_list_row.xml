@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/list_row_selector"
-     >
+    android:layout_height="wrap_content">
  
     
     <TextView
@@ -42,8 +40,6 @@
 	    android:layout_toLeftOf="@id/trashCanSymbolImage"
 	    android:layout_toStartOf="@id/trashCanSymbolImage"
 	    android:contentDescription="@string/view_trainings_activity_eye_symbol_image_description" />
-    
-    
     
     
 

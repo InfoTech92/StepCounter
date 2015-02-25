@@ -48,7 +48,7 @@
     <EditText
           android:id="@+id/profileManagementActivitySurnameEditText"
           android:layout_width="120dp"
-          android:layout_height="40dp"
+          android:layout_height="40dip"
           android:layout_toRightOf="@id/profileManagementActivitySurnameTextView"
           android:layout_toEndOf="@id/profileManagementActivitySurnameTextView"
           android:layout_below="@id/profileManagementActivityNameEditText"
@@ -184,7 +184,7 @@
     </EditText>
     
     
-    
+
     
     
      <TextView
@@ -208,14 +208,14 @@
     </EditText>
     
     
-    
+
     
     <Button 
         android:id="@+id/btnProfileManagementActivityStatistics"
         android:layout_width="100dip"
         android:layout_height="40dip"
         android:layout_below="@id/profileManagementActivityXTextView"
-        android:text="@string/profile_management_activity_statistics_text" 
+        android:text="@string/profile_management_activity_statistics_text"
         android:layout_marginTop="20dip"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
@@ -229,7 +229,7 @@
         android:layout_below="@id/profileManagementActivityXTextView"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:text="@string/profile_management_activity_save_text" 
+        android:text="@string/profile_management_activity_save_text"
         android:layout_marginTop="20dip">
 
         </Button>
