@@ -3,7 +3,7 @@
 
     <!-- Generals -->
     <string name="app_name">Contapassi</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Impostazioni</string>
 
     <!-- Main Activity Strings-->
     <string name="main_activity_name">Contapassi</string>
@@ -16,13 +16,10 @@
     <string name="new_training_activity_btn_start_training">Inizia Allenamento</string>
 
     <!-- View Trainings Activity Strings -->
-    <string name="view_trainings_activity_name">ViewTrainingsActivity</string>
+    <string name="view_trainings_activity_name">Allenamenti</string>
     <string name="view_trainings_activity_eye_symbol_image_description">Eye Symbol Image</string>
     <string name="view_trainings_activity_share_symbol_image_description">Share Symbol Image</string>
     <string name="view_trainings_activity_trash_can_symbol_image_description">Trash Can Symbol Image</string>
-    <string name="view_trainings_activity_title">Lista Allenamenti</string>
-
-
 
 
     <!-- Share Activity Strings -->

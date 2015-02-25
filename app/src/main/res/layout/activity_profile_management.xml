@@ -17,8 +17,8 @@
 
     <TextView
           android:id="@+id/profileManagementActivityNameTextView"
-          android:layout_width="100dip"
-          android:layout_height="40dip"
+          android:layout_width="100dp"
+          android:layout_height="40dp"
           android:layout_toRightOf="@+id/circularImage"
           android:layout_toEndOf="@+id/circularImage"
           android:layout_alignTop="@+id/circularImage"
@@ -26,8 +26,8 @@
           />
     <EditText
           android:id="@+id/profileManagementActivityNameEditText"
-          android:layout_width="120dip"
-          android:layout_height="40dip"
+          android:layout_width="120dp"
+          android:layout_height="40dp"
           android:layout_toRightOf="@id/profileManagementActivityNameTextView"
           android:layout_toEndOf="@id/profileManagementActivityNameTextView"
           android:layout_alignBottom="@+id/profileManagementActivityNameTextView"
@@ -38,8 +38,8 @@
     
     <TextView
           android:id="@+id/profileManagementActivitySurnameTextView"
-          android:layout_width="100dip"
-          android:layout_height="40dip"
+          android:layout_width="100dp"
+          android:layout_height="40dp"
           android:layout_below="@id/profileManagementActivityNameTextView"
           android:layout_toRightOf="@+id/circularImage"
           android:layout_toEndOf="@+id/circularImage"
@@ -47,8 +47,8 @@
           android:text="@string/profile_management_activity_surname_text_view" />
     <EditText
           android:id="@+id/profileManagementActivitySurnameEditText"
-          android:layout_width="120dip"
-          android:layout_height="40dip"
+          android:layout_width="120dp"
+          android:layout_height="40dp"
           android:layout_toRightOf="@id/profileManagementActivitySurnameTextView"
           android:layout_toEndOf="@id/profileManagementActivitySurnameTextView"
           android:layout_below="@id/profileManagementActivityNameEditText"

@@ -7,8 +7,6 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-
-
     
     <ImageView
 	    android:id="@+id/shoeImage1"

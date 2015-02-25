@@ -47,6 +47,9 @@ public class MainActivity extends ActionBarActivity implements OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+      //  getSupportActionBar().setDisplayShowHomeEnabled(true);
+      //  getSupportActionBar().setIcon(R.mipmap.ic_launcher);
+
 
         //Buttons initialization
         Button btnNewTraining = (Button) findViewById(R.id.btnNewTraining);

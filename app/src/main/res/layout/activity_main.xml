@@ -9,18 +9,18 @@
         android:layout_width="150dp"
 		android:layout_height="wrap_content" 
 		android:id="@+id/btnNewTraining"
-		android:layout_centerHorizontal="true"
-   		android:layout_marginTop="20dip"
-		android:text="@string/main_activity_new_training_button"></Button>
+		android:text="@string/main_activity_new_training_button"
+        android:layout_above="@+id/btnViewTrainings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"></Button>
    	
     <Button 
         android:layout_width="150dp"
 		android:layout_height="wrap_content" 
 		android:id="@+id/btnViewTrainings"
-		android:layout_below="@id/btnNewTraining"
-   		android:layout_marginTop="20dip"
-   		android:layout_centerHorizontal="true"
-		android:text="@string/main_activity_view_trainings_button"></Button>
+		android:text="@string/main_activity_view_trainings_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"></Button>
 	
     
     
@@ -28,10 +28,10 @@
         android:layout_width="150dp"
 		android:layout_height="wrap_content" 
 		android:id="@+id/btnProfileManagement"
-		android:layout_below="@id/btnViewTrainings"
-   		android:layout_marginTop="20dip"
-   		android:layout_centerHorizontal="true"
-		android:text="@string/main_activity_profile_management_button"></Button>
+		android:text="@string/main_activity_profile_management_button"
+        android:layout_below="@+id/btnViewTrainings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"></Button>
     
     
 </RelativeLayout>
