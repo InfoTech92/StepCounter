@@ -2,17 +2,14 @@
 <resources>
 
     <!-- Generals -->
-    <string name="app_name">MainActivity</string>
+    <string name="app_name">Contapassi</string>
     <string name="action_settings">Settings</string>
 
     <!-- Main Activity Strings-->
-    <string name="main_activity_name">MainActivity</string>
-    <string name="main_activity_title">Contapassi v1.0</string>
+    <string name="main_activity_name">Contapassi</string>
     <string name="main_activity_new_training_button">Nuovo</string>
     <string name="main_activity_view_trainings_button">Allenamenti</string>
     <string name="main_activity_profile_management_button">Mio Profilo</string>
-
-
 
     <!-- New Training Activity Strings -->
     <string name="new_training_activity_name">NewTrainingActivity</string>
