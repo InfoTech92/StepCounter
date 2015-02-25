@@ -4,8 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/main_header_selector" >
+    android:orientation="vertical" >
 
 
     <com.so2studio.stepcounter.RoundedImageView
@@ -20,7 +19,6 @@
           android:id="@+id/profileManagementActivityNameTextView"
           android:layout_width="100dip"
           android:layout_height="40dip"
-          android:textColor="@color/blue"
           android:layout_toRightOf="@+id/circularImage"
           android:layout_toEndOf="@+id/circularImage"
           android:layout_alignTop="@+id/circularImage"
@@ -43,7 +41,6 @@
           android:layout_width="100dip"
           android:layout_height="40dip"
           android:layout_below="@id/profileManagementActivityNameTextView"
-          android:textColor="@color/blue"
           android:layout_toRightOf="@+id/circularImage"
           android:layout_toEndOf="@+id/circularImage"
           android:layout_alignBottom="@+id/circularImage"
@@ -77,7 +74,6 @@
           android:layout_below="@id/profileManagementActivitySurnameTextView"
           android:layout_toRightOf="@id/heightImage"
           android:layout_toEndOf="@id/heightImage"
-          android:textColor="@color/blue"
           android:text="@string/profile_management_activity_height_text_view"
           android:layout_alignBaseline="@id/heightImage" />
     <EditText
@@ -87,7 +83,6 @@
           android:layout_marginTop="2dp"
           android:layout_toRightOf="@id/profileManagementActivityHeightTextView"
           android:layout_toEndOf="@id/profileManagementActivityHeightTextView"
-          android:textColor="@color/blue"
           android:layout_below="@id/profileManagementActivitySurnameEditText"
           android:inputType="number"
           android:layout_alignBaseline="@id/heightImage">
@@ -113,8 +108,7 @@
           android:layout_toRightOf="@id/weightImage"
           android:layout_toEndOf="@id/weightImage"
           android:layout_alignBaseline="@id/weightImage"
-          android:text="@string/profile_management_activity_weight_text_view"
-          android:textColor="@color/blue" />
+          android:text="@string/profile_management_activity_weight_text_view"/>
     <EditText
           android:id="@+id/profileManagementActivityWeightEditText"
           android:layout_width="120dip"
@@ -124,7 +118,6 @@
           android:layout_toEndOf="@id/profileManagementActivityWeightTextView"
           android:layout_below="@id/profileManagementActivityHeightEditText"
           android:inputType="number"
-          android:textColor="@color/blue"
           android:layout_alignBaseline="@id/weightImage">
     </EditText>
     
@@ -146,7 +139,6 @@
           android:layout_toRightOf="@id/stepImage"
           android:layout_toEndOf="@id/stepImage"
           android:text="@string/profile_management_activity_step_length_text_view"
-          android:textColor="@color/blue"
           android:layout_alignBaseline="@id/stepImage" />
     <EditText
           android:id="@+id/profileManagementActivityStepLengthEditText"
@@ -178,7 +170,6 @@
           android:layout_toEndOf="@id/genderImage"
           android:layout_below="@id/profileManagementActivityStepLengthTextView"
           android:text="@string/profile_management_activity_gender_text_view"
-          android:textColor="@color/blue"
           android:layout_alignBaseline="@id/genderImage" />
     <EditText
           android:id="@+id/profileManagementActivityGenderEditText"
@@ -204,8 +195,7 @@
           android:layout_marginLeft="40dp"
           android:layout_marginStart="40dp"
           android:layout_below="@id/genderImage"
-          android:text="@string/profile_management_activity_x_text_view"
-          android:textColor="@color/blue" />
+          android:text="@string/profile_management_activity_x_text_view" />
     <EditText
           android:id="@+id/profileManagementActivityXEditText"
           android:layout_width="120dip"
@@ -228,9 +218,7 @@
         android:text="@string/profile_management_activity_statistics_text" 
         android:layout_marginTop="20dip"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="@color/yellow"
-        android:background="@drawable/button_selector">
+        android:layout_alignParentStart="true">
 
         </Button>
 		
@@ -242,9 +230,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:text="@string/profile_management_activity_save_text" 
-        android:layout_marginTop="20dip"
-        android:textColor="@color/yellow"
-        android:background="@drawable/button_selector">
+        android:layout_marginTop="20dip">
 
         </Button>
     

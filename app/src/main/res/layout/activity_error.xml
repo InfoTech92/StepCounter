@@ -2,16 +2,14 @@
     android:id="@+id/RelativeLayout01" 
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@drawable/main_header_selector">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
         android:id="@+id/textViewMainTitleErrorActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/error_activity_title" 
-        android:textSize="12sp"
-        android:textColor="@color/blue"/>
+        android:textSize="12sp"/>
     
     <Button 
         android:layout_width="150dip"
@@ -20,9 +18,7 @@
 		android:layout_centerHorizontal="true"
 		android:layout_below="@id/textViewMainTitleErrorActivity"
    		android:layout_marginTop="20dip"
-		android:text="@string/error_activity_profile_management_button"
-		android:textColor="@color/yellow"
-		android:background="@drawable/button_selector"></Button>
+		android:text="@string/error_activity_profile_management_button"></Button>
      
 
     
@@ -34,9 +30,7 @@
 		android:layout_below="@id/btnProfileManagementErrorActivity"
    		android:layout_marginTop="20dip"
    		android:layout_centerHorizontal="true"
-   		android:textColor="@color/yellow"
-		android:text="@string/error_activity_cancel_button"
-		android:background="@drawable/button_selector"></Button> 	
+		android:text="@string/error_activity_cancel_button"></Button>
     
     
 </RelativeLayout>

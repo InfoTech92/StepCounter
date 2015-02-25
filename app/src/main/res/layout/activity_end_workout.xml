@@ -2,16 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:background="@drawable/main_header_selector">
+    android:orientation="vertical">
     
 	<TextView
 	    android:id="@+id/textViewEndTraining"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/training_end_activity_title"
-        android:textSize="30sp"
-        android:textColor="@color/blue" />
+        android:textSize="30sp" />
 	
     <Button
         android:layout_width="170dip" 
@@ -20,9 +18,7 @@
 		android:layout_below="@id/textViewEndTraining"
 		android:layout_centerHorizontal="true"
 		android:layout_marginTop="5dp"
-		android:text="@string/training_end_activity_share_button"
-		android:textColor="@color/yellow"
-		android:background="@drawable/button_selector"></Button> 
+		android:text="@string/training_end_activity_share_button"></Button>
     
     <Button
         android:layout_width="170dip" 
@@ -31,9 +27,7 @@
 		android:layout_marginTop="5dp"
 		android:id="@+id/btnGraphicEndTraining"
 		android:layout_below="@id/btnShareEndTraining"
-		android:text="@string/training_end_activity_graphic_button"
-		android:textColor="@color/yellow"
-		android:background="@drawable/button_selector"></Button> 
+		android:text="@string/training_end_activity_graphic_button"></Button>
     
     <Button 
         android:layout_width="170dip"
@@ -42,9 +36,7 @@
 		android:layout_marginTop="5dp"
 		android:layout_below="@id/btnGraphicEndTraining"
 		android:id="@+id/btnExitNoSaveEndTraining"
-		android:text="@string/training_end_activity_exit_no_save_button"
-		android:textColor="@color/yellow"
-		android:background="@drawable/button_selector"></Button> 
+		android:text="@string/training_end_activity_exit_no_save_button"></Button>
     
     <Button 
         android:layout_width="170dip"
@@ -53,9 +45,7 @@
 		android:layout_marginTop="5dp"
 		android:id="@+id/btnExitSaveEndTraining"
 		android:layout_below="@id/btnExitNoSaveEndTraining"
-		android:text="@string/training_end_activity_exit_save_button"
-		android:textColor="@color/yellow"
-		android:background="@drawable/button_selector"></Button>
+		android:text="@string/training_end_activity_exit_save_button"></Button>
     
     
 </RelativeLayout>

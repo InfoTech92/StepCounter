@@ -2,56 +2,36 @@
     android:id="@+id/RelativeLayout01" 
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@drawable/main_header_selector">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
-        android:id="@+id/textViewMainTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/main_activity_title" 
-        android:textSize="30sp"
-        android:textColor="@color/blue"/>
-    
-	
     
     <Button 
-        android:layout_width="150dip"
+        android:layout_width="150dp"
 		android:layout_height="wrap_content" 
 		android:id="@+id/btnNewTraining"
 		android:layout_centerHorizontal="true"
-		android:layout_below="@id/textViewMainTitle"
    		android:layout_marginTop="20dip"
-		android:text="@string/main_activity_new_training_button"
-		android:textColor="@color/yellow"
-		android:background="@drawable/button_selector"></Button>
-     
-
-
+		android:text="@string/main_activity_new_training_button"></Button>
    	
     <Button 
-        android:layout_width="150dip"
+        android:layout_width="150dp"
 		android:layout_height="wrap_content" 
 		android:id="@+id/btnViewTrainings"
 		android:layout_below="@id/btnNewTraining"
    		android:layout_marginTop="20dip"
    		android:layout_centerHorizontal="true"
-   		android:textColor="@color/yellow"
-		android:text="@string/main_activity_view_trainings_button"
-		android:background="@drawable/button_selector"></Button> 
+		android:text="@string/main_activity_view_trainings_button"></Button>
 	
     
     
     <Button 
-        android:layout_width="150dip"
+        android:layout_width="150dp"
 		android:layout_height="wrap_content" 
 		android:id="@+id/btnProfileManagement"
 		android:layout_below="@id/btnViewTrainings"
    		android:layout_marginTop="20dip"
    		android:layout_centerHorizontal="true"
-   		android:textColor="@color/yellow"
-		android:text="@string/main_activity_profile_management_button"
-		android:background="@drawable/button_selector"></Button> 	
+		android:text="@string/main_activity_profile_management_button"></Button>
     
     
 </RelativeLayout>

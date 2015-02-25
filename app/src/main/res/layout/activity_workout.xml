@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:background="@drawable/main_header_selector">
+    android:orientation="vertical">
 
 
 
@@ -36,7 +35,6 @@
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:textSize="80sp"
-	    android:textColor="@color/blue"
 	    android:layout_toEndOf="@id/shoeImage2"
        	android:layout_toRightOf="@id/shoeImage2"
 	    android:text="@string/training_activity_counter_init"
@@ -86,8 +84,7 @@
         android:text="@string/training_activity_clock_init"
         android:layout_alignRight="@id/btnStop"
         android:layout_alignEnd="@id/btnStop"
-        android:textSize="30sp"
-        android:textColor="@color/blue"/>
+        android:textSize="30sp"/>
     
     
     

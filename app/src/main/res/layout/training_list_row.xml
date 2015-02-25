@@ -10,15 +10,9 @@
         android:id="@+id/label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textColor="@color/yellow">
+        android:textSize="30sp">
     </TextView>
- 
-    
-    
-    
-    
-    
+
     <ImageView
 	    android:id="@+id/shareSymbolImage"
 	    android:layout_width="40dp"

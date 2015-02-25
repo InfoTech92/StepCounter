@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dp"
-    android:background="@drawable/main_header_selector"
     tools:context=".MainActivity" >
 
 	
@@ -11,8 +10,7 @@
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_margin="5dp"
-	    android:padding="5dp"
-	    android:background="@drawable/main_header_selector" >
+	    android:padding="5dp">
 	
 	
 		<EditText
@@ -54,9 +52,7 @@
 		    android:layout_height="50dp"
 		    android:layout_below="@id/editTextMessage"
 		    android:layout_margin="5dp"
-		    android:text="@string/send_email_activity_send_button"
-		    android:textColor="@color/yellow"
-        	android:background="@drawable/button_selector" />
+		    android:text="@string/send_email_activity_send_button"/>
 		
 		
 		<Button
@@ -66,9 +62,7 @@
 		    android:layout_alignParentRight="true"
 		    android:layout_alignParentEnd="true"
 		    android:layout_alignParentTop="true"
-		    android:text="@string/send_email_activity_attachment_button"
-		    android:textColor="@color/yellow"
-        	android:background="@drawable/button_selector" />
+		    android:text="@string/send_email_activity_attachment_button"/>
 	
 	</RelativeLayout>
 
